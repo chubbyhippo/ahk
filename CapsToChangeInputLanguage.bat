@@ -1,2 +1,0 @@
-start CapsToChangeInputLanguage.exe
-exit
