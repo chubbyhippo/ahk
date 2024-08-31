@@ -10,4 +10,4 @@ LControl::
     return
 }
 
-+CapsLock::CapsLock
++Ctrl::CapsLock
