@@ -1,3 +1,4 @@
+SetCapsLockState, alwaysoff
 LControl::CapsLock
 CapsLock::LControl
 
