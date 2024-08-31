@@ -1,2 +1,0 @@
-start CmdOption.exe
-exit
