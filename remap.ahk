@@ -7,7 +7,6 @@ LControl::
     Send "{Alt Down}"
     Send "{Shift Up}"
     Send "{Alt Up}"
-    return
 }
 
 +Ctrl::CapsLock
