@@ -1,10 +1,13 @@
-SetCapsLockState, alwaysoff
+SetCapsLockState("AlwaysOff")
+
 Capslock::
-Send {LControl Down}
-KeyWait, CapsLock
-Send {LControl Up}
-if ( A_PriorKey = "CapsLock" )
 {
-Send {Esc}
+    Send("{LControl Down}")
+    KeyWait("CapsLock")
+    Send("{LControl Up}")
+    if (A_PriorKey == "CapsLock")
+    {
+        Send("{Esc}")
+    }
 }
 return
